@@ -53,7 +53,7 @@ const url = `https://api.groq.com/openai/v1/chat/completions`;
 console.log("Data:", data);
 
     if (!response.ok) {
-        console.error("API Error", data);
+        console.log(JSON.stringify(data, null, 2));
         return data?.error?.message || "Error fetching response"
     }
     return (
