@@ -1,4 +1,7 @@
 import { apikey } from "./config.js";
+
+const apikey = "test";
+console.log(apikey);
 const chatbox = document.getElementById("chat-box")
 const userInput = document.getElementById("user-Input")
 const sendBtn = document.getElementById("send-btn");
