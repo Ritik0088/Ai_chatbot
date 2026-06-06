@@ -27,6 +27,7 @@ function showTyping() {
     chatbox.scrollTop = chatbox.scrollHeight;
     return typingDiv;
 }
+console.log("API Key:", apikey);
 console.log(apikey);
 async function getbotreplay(usermessage){
 const url = `https://api.groq.com/openai/v1/chat/completions`;
