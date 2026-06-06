@@ -1,4 +1,4 @@
-
+import { apikey } from "./config.js";
 const chatbox = document.getElementById("chat-box")
 const userInput = document.getElementById("user-Input")
 const sendBtn = document.getElementById("send-btn");
@@ -28,7 +28,7 @@ function showTyping() {
 }
 
 async function getbotreplay(usermessage){
-const url = `https://sparkling-souffle-c0ad69.netlify.app/api.groq.com/openai/v1/chat/completions`;
+const url = `https://api.groq.com/openai/v1/chat/completions`;
 
    try {
       const response = await fetch(url, {

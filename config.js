@@ -1,0 +1,1 @@
+export const apikey = "YOUR_GROQ_API_KEY";
