@@ -28,7 +28,7 @@ function showTyping() {
 }
 
 async function getbotreplay(usermessage){
-const url = `https://api.groq.com/openai/v1/chat/completions`;
+const url = `https://sparkling-souffle-c0ad69.netlify.app/api.groq.com/openai/v1/chat/completions`;
 
    try {
       const response = await fetch(url, {
